@@ -24,12 +24,9 @@
 // Write a function called `sum` that takes two
 // parameters and returns the sum of those 2 numbers.
 
-// var num1 = [0];
-// var num2 = [1];
-// var sum = num1 + num2;
+
 
 function sum(num1, num2) {
-
 return  num1+num2;
 
 }
@@ -41,18 +38,13 @@ sum(1,2);
 // Write a function named `avg` that takes 3 parameters
 // and returns the average of those 3 numbers.
 
-// var x=1;
-// var y =2 ;
-// var z = 3;
-// var sum = num1+num2+num3;
-// var avg = sum/sum.length;
 
 
 function avg(x,y,z) {
 return (x+y+z)/3;
 }
-
-console.log(avg(1,2,3));
+//
+// console.log(avg(1,2,3));
 
 
 // Q3
@@ -61,12 +53,12 @@ console.log(avg(1,2,3));
 
 
 
-function getLength(name) {
+function getLength(string,length) {
 
-return name.length;
+return string.length;
 }
 
-console.log(getLength('haley'))
+//console.log(getLength('awesome'));
 
 
 
@@ -88,7 +80,7 @@ function greaterThan(num1,num2){
      return  "False";
  }
 }
-console.log(greaterThan(5,3));
+//console.log(greaterThan(1,3));
 
 
 // Q5
@@ -102,8 +94,8 @@ function greet (name){
  return 'hello, ' + name;
 
   }
-  console.log(greet('haley'));
-  console.log(greet('jess'));
+  // console.log(greet('haley'));
+
 
 
 // Q6
@@ -123,7 +115,7 @@ function madlib(food,verb,adj){
 return 'I'+ ' like ' + food + ' ' + verb +' '+ adj;
 
 }
-console.log(madlib('pizza', 'eating','fuzzy'));
+// console.log(madlib('pizza', 'eating','fuzzy'));
 
 
 
